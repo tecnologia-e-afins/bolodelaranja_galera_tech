@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --roblox: #c59245;
+}
+*{
+    margin: 0 auto;
+    /* centralização */
+}
+body{
+  background-color: #ffb657;
+    padding: 20px;
+    background:
+        linear-gradient(135deg, rgba(182, 109, 14, 0.418) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(225deg, rgba(146, 89, 4, 0.459) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(45deg, rgba(172, 92, 0, 0.486) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(315deg, rgba(189, 129, 0, 0.87) 25%, transparent 25%) 0 0/32px 32px,
+        var(--roblox);
+}
+main{
+    max-width: 700px; /* máximo de largura na tela*/
+    position: relative;
+    background-color: #ffda61;
+    padding: 10px; /* desgrudar elementos das bordas */
+    border-radius: 15px; /* arredondar bordas */
+    box-shadow: 3px 3px 7px #3d3c3c; /* sombras valores positivos são direita e rodapé , último valor é expansão da sombra */
+}
+img{
+    border-radius: 15px; /* arredondar as bordas da imagem */
+    max-width: 100%; /* máximo de largura na tela */
+    box-shadow: 3px 3px 15px #2f2f2f;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 10px 0;
+  text-shadow: 1px 1px 2px #2f2f2f;
+  color: #000000fb;
+}
+p {
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: justify;
+}
+/*
+Usar TAG aplica em todas as tags do doc
+Usar classe , aplica apenas onde tiver classe - pode repetir - chamada .classe
+Usar ID, aplica em ID único - #id
+*/
+/*tag ou classe*/
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 10px 0;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+  text-shadow: 1px 1px 2px #8a6028;
+}
+#footer{
+    max-width: 700px;
+    text-align: center;
+    line-height: 75px;
+    color: white;
+}
+#footer p {
+    text-align: center;
+}
